@@ -1,0 +1,27 @@
+data:
+  review_path: "../data/reviews_sample.jsonl.gz"
+  image_dir: "../data/img"
+  sample_size: null
+
+model:
+  max_words: 100000
+  max_seq_len: 100
+  embedding_dim: 100
+  conv_filters: 100
+  conv_kernel_sizes: [1, 2, 3]
+  dense_units: 32
+
+w2v:
+  window: 5
+  min_count: 1
+  workers: 4
+
+training:
+  learning_rate: 0.001
+  batch_size: 512
+  epochs: 100
+  random_seed: 42
+
+split:
+  test_size: 0.2
+  val_size: 0.125

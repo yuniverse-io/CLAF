@@ -1,0 +1,24 @@
+data:
+  review_path: "../data/reviews_sample.jsonl.gz"
+  image_cache_dir: "../data/img"
+  sample_size: null
+
+model:
+  bert_model_name: bert-base-uncased
+  bert_max_len: 128
+  text_input_dim: 768
+  image_input_dim: 4096
+  vgg16_image_size: 224
+  embed_dim_q_k: 64
+  embed_dim_v: 32
+
+training:
+  learning_rate: 0.001
+  batch_size: 32
+  epochs: 100
+  dropout_rate: 0.8
+  random_seed: 42
+
+split:
+  test_size: 0.2
+  val_size: 0.125

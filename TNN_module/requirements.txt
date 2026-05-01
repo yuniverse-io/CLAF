@@ -1,0 +1,7 @@
+tensorflow==2.16.2
+numpy==1.26.4
+pandas==2.3.3
+scikit-learn==1.7.2
+gensim==4.4.0
+pyyaml==6.0.3
+nltk==3.9.4

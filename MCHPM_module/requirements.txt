@@ -1,0 +1,43 @@
+# Python 3.11
+# Setup:
+#   conda create -n mchpm python=3.11
+#   conda activate mchpm
+#   pip install -r requirements.txt
+#
+# torch + torchvision pull the CUDA 12.1 wheel from PyTorch's index
+# (--extra-index-url below). For a CPU-only install, drop the
+# `--extra-index-url` line and the `+cu121` suffixes.
+
+--extra-index-url https://download.pytorch.org/whl/cu121
+
+# Deep learning frameworks
+torch==2.3.1+cu121
+torchvision==0.18.1+cu121
+tensorflow==2.15.0
+
+# HuggingFace
+transformers==4.28.1
+tokenizers==0.13.3
+sentencepiece==0.2.0
+huggingface-hub==0.23.4
+
+# Data / ML
+numpy==1.26.4
+pandas==2.2.1
+pyarrow==12.0.1
+scikit-learn==1.4.2
+
+# NLP / Text
+nltk==3.9.2
+textblob==0.19.0
+textstat==0.7.11
+beautifulsoup4==4.12.3
+
+# Vision
+opencv-python
+Pillow==10.3.0
+
+# Utilities
+tqdm==4.66.4
+PyYAML==6.0.1
+requests==2.33.1
