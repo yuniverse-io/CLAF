@@ -14,3 +14,5 @@ wandb/
 *.ckpt
 *.pkl
 data/
+HP-BERT_module/log/
+MFRHP_module_fine/log/

@@ -1,7 +1,7 @@
 data:
-  review_path: "../data/reviews_sample.jsonl.gz"
+  review_path: "/home/sw001/workspace/RHP/yoon_heo/data/Sports_and_Outdoors.jsonl.gz"
   sample_size: null
-  image_cache_dir: "../data/img"
+  image_cache_dir: "/home/sw001/workspace/RHP/yoon_heo/data/img"
 
 model:
   bert_model_name: bert-base-uncased
@@ -16,7 +16,7 @@ model:
 
 training:
   learning_rate: 0.001
-  batch_size: 32
+  batch_size: 256
   epochs: 100
   dropout_rate: 0.8
   random_seed: 42

@@ -1,6 +1,6 @@
 data:
-  review_path: "../data/reviews_sample.jsonl.gz"
-  image_dir: "../data/img"
+  review_path: "/home/sw001/workspace/RHP/yoon_heo/data/Sports_and_Outdoors.jsonl.gz"
+  image_dir: "/home/sw001/workspace/RHP/yoon_heo/data/img"
   sample_size: null
 
 model:

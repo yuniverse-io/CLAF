@@ -1,6 +1,6 @@
 import os
 os.environ["TF_GPU_ALLOCATOR"] = "cuda_malloc_async"
-os.environ["CUDA_VISIBLE_DEVICES"] = "2"
+os.environ["CUDA_VISIBLE_DEVICES"] = "3"
 os.environ.setdefault("TF_CPP_MIN_LOG_LEVEL", "0")
 
 import time
