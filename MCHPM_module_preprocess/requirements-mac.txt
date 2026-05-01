@@ -1,0 +1,38 @@
+# Python 3.11
+# Setup for macOS Apple Silicon / CPU:
+#   conda create -n mchpm python=3.11
+#   conda activate mchpm
+#   pip install -r requirements-mac.txt
+#
+# This keeps the original CUDA/Linux requirements.txt untouched.
+
+# Deep learning frameworks
+torch==2.3.1
+torchvision==0.18.1
+
+# HuggingFace
+transformers==4.28.1
+tokenizers==0.13.3
+sentencepiece==0.2.0
+huggingface-hub==0.23.4
+
+# Data / ML
+numpy==1.26.4
+pandas==2.2.1
+pyarrow==12.0.1
+scikit-learn==1.4.2
+
+# NLP / Text
+nltk==3.9.2
+textblob==0.19.0
+textstat==0.7.11
+beautifulsoup4==4.12.3
+
+# Vision
+opencv-python
+Pillow==10.3.0
+
+# Utilities
+tqdm==4.66.4
+PyYAML==6.0.1
+requests==2.32.3
